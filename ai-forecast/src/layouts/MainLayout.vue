@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <q-layout view="hHh LpR fFf">
 
     <q-header reveal elevated class="bg-primary text-white" height-hint="98">
@@ -30,10 +31,31 @@
       <!-- drawer content -->
     </q-drawer>
 
+=======
+  <q-layout view="hhh LpR fff">
+
+    <q-header bordered class="bg-primary text-white" height-hint="98">
+      <q-toolbar>
+        <q-toolbar-title>
+          <q-avatar>
+            <!-- <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg"> -->
+          </q-avatar>
+          Foreca Machine
+        </q-toolbar-title>
+      </q-toolbar>
+
+      <q-tabs align="left">
+        <q-route-tab to="/store" label="store" />
+        <q-route-tab to="/page2" label="Page Two" />
+      </q-tabs>
+    </q-header>
+
+>>>>>>> 720751cf3fc35352eadaf7569c74d8b6198fee37
     <q-page-container>
       <router-view />
     </q-page-container>
 
+<<<<<<< HEAD
     <q-footer elevated class="bg-grey-8 text-white">
       <q-toolbar>
         <q-toolbar-title>
@@ -45,6 +67,8 @@
       </q-toolbar>
     </q-footer>
 
+=======
+>>>>>>> 720751cf3fc35352eadaf7569c74d8b6198fee37
   </q-layout>
 </template>
 
@@ -52,6 +76,7 @@
 export default {
   data () {
     return {
+<<<<<<< HEAD
       left: false,
       right: false
     }
@@ -60,6 +85,13 @@ export default {
 </script>
 
 <!-- <template>
+=======
+    }
+  }
+}
+</script><!--
+<template>
+>>>>>>> 720751cf3fc35352eadaf7569c74d8b6198fee37
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
@@ -73,10 +105,10 @@ export default {
         />
 
         <q-toolbar-title>
-          Quasar App
+          Foreca Machine
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>FM v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -165,4 +197,9 @@ export default {
     }
   }
 }
+<<<<<<< HEAD
 </script> -->
+=======
+</script>
+-->
+>>>>>>> 720751cf3fc35352eadaf7569c74d8b6198fee37
